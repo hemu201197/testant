@@ -10,3 +10,10 @@
 		<echo> These are some built in properties ${ant.home} , ${ant.version} , ${ant.project.default-target} and ${ant.project.name} </echo>
 			</target>
 		</project>
+
+<project default = "test">
+	<target name = "test">
+		<echo message = "Hello World!" />
+		<mkdir dir = "newone" />
+			</target>
+		</project>
