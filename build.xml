@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="build.properties"  default = "displayproperties">
+	<property name="key" value="value of the key"/>
+	<property name="someURL" value="URL of some endpoints and etc"/>
+	<property name="timeout settings" value="40000"/>
+	<target name = "displayproperties">
+		<echo> These are some system defined properties ${os.name} , ${java.version} , ${java.compiler} and ${java.home} </echo>
+		<echo> These are some user defined properties ${key} , ${someURL} , ${timeout settings} </echo>
+		<echo> These are some built in properties ${ant.home} , ${ant.version} , ${ant.project.default-target} and ${ant.project.name} </echo>
+			</target>
+		</project>
