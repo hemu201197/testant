@@ -13,5 +13,9 @@
 		<echo message = "Hello World!" />
 		<mkdir dir = "newone" />
 			</target>
+	<target name = "testing">
+		<echo message = "Hello Beta World!" />
+		<mkdir dir = "newone1" />
+			</target>
 		</project>
 
